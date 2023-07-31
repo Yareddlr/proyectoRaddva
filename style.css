@@ -165,6 +165,22 @@ object-fit: cover;
     line-height: 30px;
     
 }
+.descripcion2{
+    width: 55%;
+    position: absolute; 
+    top: 90%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: black; 
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    font-size: 40px; 
+    text-align: center; 
+    padding: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.35px;
+    line-height: 30px;
+    
+}
 .formulario{
     width: auto;
     position: absolute;
