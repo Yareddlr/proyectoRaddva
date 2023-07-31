@@ -142,6 +142,13 @@ object-fit: cover;
     font-weight: 400;
     
 }
+#resaltar{
+    color: #6248FF;
+
+}
+#resaltar2{
+    color: #6248FF;
+}
 .descripcion{
     width: 55%;
     position: absolute; 
