@@ -1,0 +1,543 @@
+*{
+   
+    box-sizing: border-box,
+}
+
+    
+.navigation{
+    margin: auto;
+    padding: 0;
+    
+
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+color: #000;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+font-style: normal;
+line-height: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    }
+nav li{
+    margin: 10px 20px ;
+  
+
+}
+.logo{
+ width: 300px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: -0.15px;
+
+}
+.maincontainer{
+    width: 100%;
+    height: 1550px;
+    position: relative;
+}
+
+#ingresa{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+  
+    
+}
+
+#mazda{
+position: absolute;
+top: 5%;
+left: 10%;
+}
+
+#losdatos{
+    position: absolute;
+    color: var(--color-raddva, #6248FF);
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+top: 6%;
+right: 15%;
+}
+
+.datos{
+    display: flex;
+    flex-wrap: wrap;
+  width: 500px;
+  height: auto;
+    position: absolute;
+    right: 10%;
+    top: 11%;
+}
+
+#box{
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 210px;
+height: 37px;
+background:rgba(217, 217, 217, 0.20);
+border: rgba(0, 0, 0, 0.20) solid 1px;
+border-radius: 10px;
+
+}
+
+#boxx{
+    width: 210px;
+height: 62px;
+background:rgba(217, 217, 217, 0.20);
+border: rgba(0, 0, 0, 0.20) solid 1px;
+border-radius: 10px;
+margin-bottom: 40px;
+    margin-left: 20px;
+}
+#box1{
+    margin-left: 20px;
+    width: 210px;
+height: 37px;
+background:rgba(217, 217, 217, 0.20);
+border: rgba(0, 0, 0, 0.20) solid 1px;
+border-radius: 10px;
+}
+
+#situ{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+width: 217px;
+position: absolute;
+top: 87%;
+left: 5%;
+}
+#selecciona{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+left: 15%;
+top: 25%;
+}
+
+#mapa{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    object-fit: cover;
+    width: 539px;
+    height: 334px
+}
+#city{
+    position: absolute;
+top: 53%;
+left: 12%;
+background-color: rgba(217, 217, 217, 0.20);
+border-radius: 10px;
+border: rgba(0, 0, 0, 0.20) solid 1px;
+width: 428px;
+height: 37px;
+}
+
+#fotografias{
+    color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+top: 58%;
+left: 12%;
+
+}
+
+#fotos{
+    width: 452px;
+height: 128px;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: rgba(217, 217, 217, 0.20);
+position: absolute;
+top: 61%;
+left: 12%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#formulario{
+    position: absolute;
+    top: 71%;
+    left: 12%;
+    width: 446px;
+height: 130px;
+color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+
+}
+#cuentanos{
+    width: 446px;
+height: 130px;
+background: rgba(217, 217, 217, 0.20);
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+margin-top: 10px;
+}
+
+.general{
+width: 500px;
+height: 400px;
+position: absolute;
+right: 10%;
+top: 45%;
+color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+flex-wrap: wrap;
+
+}
+#general p{
+    margin: 2px;
+}
+
+#general button{
+    width: 50px;
+height: 15px;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: rgba(217, 217, 217, 0.20);
+text-align: center;
+font-family: Roboto;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+}
+
+#general input{
+    width: 100px;
+height: 15px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+border-radius: 10px;
+background: rgba(217, 217, 217, 0.20);
+
+
+}
+#gen{
+    margin-bottom: 5px;
+    color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+
+}
+
+    #entretenimiento p{
+        margin: 2px;
+    }
+    
+    #entretenimiento button{
+        width: 50px;
+    height: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.20);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    #entretenimiento input{
+        width: 100px;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.20);
+    
+    
+    }
+    #ent{
+        margin-bottom: 5px;
+        color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    
+    }
+
+   
+        #confort p{
+            margin: 2px;
+        }
+        
+        #confort button{
+            width: 50px;
+        height: 15px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        background: rgba(217, 217, 217, 0.20);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        #confort input{
+            width: 100px;
+        height: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        border-radius: 10px;
+        background: rgba(217, 217, 217, 0.20);
+        
+        
+        }
+        #conf{
+            margin-bottom: 5px;
+            color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+        
+        }
+
+        #seguridad p{
+            margin: 2px;
+        }
+        
+        #seguridad button{
+            width: 50px;
+        height: 15px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        background: rgba(217, 217, 217, 0.20);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        #seguridad input{
+            width: 100px;
+        height: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        border-radius: 10px;
+        background: rgba(217, 217, 217, 0.20);
+        
+        
+        }
+        #seg{
+            margin-bottom: 5px;
+            color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+        
+        }
+
+        #exterior p{
+            margin: 2px;
+        }
+        
+        #exterior button{
+            width: 50px;
+        height: 15px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        background: rgba(217, 217, 217, 0.20);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        #exterior input{
+            width: 100px;
+        height: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        border-radius: 10px;
+        background: rgba(217, 217, 217, 0.20);
+        
+        
+        }
+        #ext{
+            margin-bottom: 5px;
+            color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+        
+        }
+
+        #publicarlo{
+            width: 210px;
+height: 37px;
+border-radius: 10px;
+background-color: #6248FF;
+border: none;
+color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+position: absolute;
+top: 85%;
+left: 15%;
+        }
+        .footer{
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            margin-top: 40px;
+            background: #FBFBFB;
+        width: auto;
+        height: 400px;
+        padding-left: 30px;
+        padding-top: 0px;
+        padding-right: 30px;
+        }
+        .pie p{
+            cursor: pointer;
+        }
+        .logofotter{
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #000;
+        font-family: Verdana;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -0.15px;
+        }
+        
+        .contacto{
+            width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        }
+        .pie{
+           
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+            color: #000;
+        font-family: Verdana;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        }
+        #inicial{
+            color: #949AAF;
+        font-family: Verdana;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        
+        #resaltar{
+            color: var(--color-raddva, #6248FF);
+        font-family: Verdana;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.25px;
+        }
+        
+        .rectangulo{
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 65%;
+             width: 238px;
+        height: 700px;
+        background: rgba(98, 72, 255, 0.10);
+        }
+        
+        
+        
+        #rec{
+            top: 0%;
+            right: 0%;
+            position: absolute;
+            width: 932px;
+            height: 400px;
+        
+           
+        }
+        .circulo{
+            width: 358px;
+        height: 358px;
+        position: absolute;
+        top: 50%;
+        border-radius: 358px;
+        background: rgba(98, 72, 255, 0.10);
+        }
+        
+        .otrocirculo{
+            position: absolute;
+            width: auto;
+        height: auto;
+        stroke-width: 15px;
+        stroke: rgba(98, 72, 255, 0.10);
+        left: 90%;
+        top: 20%;
+        }
+        
+        .otrocirculo svg{
+            width: 200px;
+        height: 200px;
+        }

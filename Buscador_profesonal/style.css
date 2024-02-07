@@ -1,0 +1,468 @@
+*{
+   
+    box-sizing: border-box,
+}
+
+body::before{
+        content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+     z-index: -1;
+      background: linear-gradient(180deg, rgba(98, 72, 255, 0.20) 34.14%, rgba(98, 72, 255, 0.00) 100%);
+      filter: blur(400px);
+      
+    }
+   
+/*menu de navegacion*/  
+.navigation{
+    margin: auto;
+    padding: 0;
+    
+
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+color: #000;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+font-style: normal;
+line-height: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    }
+nav li{
+    margin: 10px 20px ;
+  
+
+}
+.logo{
+ width: 300px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: -0.15px;
+
+}
+.login{
+    margin: auto;
+    width: 320px;
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+}
+#session{
+    cursor: pointer;
+    overflow: #fff;
+    width: 204px;
+height: 47px;
+border-radius: 40px;
+background: #6248FF;
+border: none;
+color: #FFF;
+align-items: flex-end;
+text-align: center;
+font-family: Verdana;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: -0.1px;
+}
+#session:hover{
+    background-color: #0056b3;
+}
+/* fin de menu de navegacion*/  
+
+/*contenido del main*/
+/*sistema de naveacion*/
+.maincontainer{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+   display: flex;
+   
+
+   }
+
+   .Buscador{
+       
+       display: flex;
+       width: 100%;
+       height: 100px;
+       align-items: center;
+       justify-content: center;
+       margin: 20px;
+       
+
+   }
+   #orientacion{
+    margin: 10px 20px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; /* 0% */
+    letter-spacing: -0.125px;
+    
+   }
+   #BuscaUnvendedor{
+       position: absolute;
+       top: 35%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+margin: 5px;
+    width: auto;
+    height: auto;
+    color: #000;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: -0.275px;
+   }
+.marcas{
+    position: absolute;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+width: 1200px;
+height: 85px;
+border-radius: 20px;
+border: 7px solid rgba(98, 72, 255, 0.50);
+background: rgba(255, 255, 255, 0.50);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+padding: 10px;
+text-align: center;
+justify-content: center;
+
+}
+
+.BuscarMarca, .Ubicacion, .RangoDePrecio, .Categoria {
+    margin: 10px 55px ;
+  
+    
+}
+
+#NavigationDecoration1{
+    color: #949AAF;
+font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 475% */
+letter-spacing: -0.1px;
+width: 180px;
+height: 25px;
+margin-bottom: 0px;
+
+
+}
+#NavigationDecoration2{
+    color: #949AAF;
+font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 475% */
+letter-spacing: -0.1px;
+width: 180px;
+height: 25px;
+margin-bottom: 0px;
+}
+
+#NavigationDecoration{
+    color: #000;
+font-family: Verdana;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 431.818% */
+letter-spacing: -0.11px;
+margin-top: 3px;
+
+
+}
+
+.lineas{
+    position: absolute;
+display: flex;
+margin-top: -4px;
+
+
+
+}
+.linea1, .linea2, .linea3{
+    margin: 10px 150px;
+    background: rgba(98, 72, 255, 0.50);
+    width: 2px;
+height: 79px;
+}
+svg{
+    width: 18px;
+height: 18px;
+
+}
+.flecha{
+    width: 13px;
+height: 12px;
+transform: rotate(90deg);
+
+}
+#NavigationDecoration3{
+    color: #000;
+font-family: Verdana;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 431.818% */
+letter-spacing: -0.11px;
+margin-top: 3px;
+width: 195px;
+}
+/*fin de sistema de naveacion*/
+
+.newsection{
+    width: 100%;
+    height: 370px;
+    position: relative;
+    display: flex;
+}
+
+.lupa{
+    position: absolute;
+    left: 5%;
+    width: 300px;
+height: 300px;
+}
+
+#encuentra{
+    width: 912px;
+    position: absolute;
+    top: 5%;
+    transform: translate(-30%, -50%);
+    left: 50%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 83.333% */
+letter-spacing: -0.15px;
+}
+
+#paraBuscar{
+    position: absolute;
+    transform: translate(-30%, -50%);
+    left: 50%;
+    top:35%;
+    color: #000;
+    width: 912px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 150% */
+letter-spacing: -0.1px;
+}
+
+.lastSection{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    
+}
+
+#texto{
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: -0.1px;
+width: 1000px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 20%;
+}
+
+#eresVendedor{
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 83.333% */
+letter-spacing: -0.15px;
+width: 1000px;
+position: absolute;
+top: 50%;
+transform: translate(-50%,-50%);
+left: 50%;
+
+}
+#DaleUnvistazo{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 150% */
+letter-spacing: -0.1px;
+width: 1000px;
+position: absolute;
+top: 70%;
+transform: translate(-50%, -50%);
+left: 50%;
+}
+.lastSection span{
+    color: var(--color-raddva, #6248FF);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto;
+letter-spacing: -0.1px;
+
+
+}
+.footer{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    background: #FBFBFB;
+width: auto;
+height: 400px;
+padding-left: 30px;
+padding-top: 0px;
+padding-right: 30px;
+}
+.logofotter{
+width: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.15px;
+}
+
+.contacto{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.pie{
+   
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    color: #000;
+font-family: Verdana;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.1px;
+}
+#inicial{
+    color: #949AAF;
+font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+#resaltar{
+    color: var(--color-raddva, #6248FF);
+font-family: Verdana;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.25px;
+}
+
+.rectangulo{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+     width: 238px;
+height: 700px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+
+
+#rec{
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    width: 932px;
+    height: 400px;
+
+   
+}
+.circulo{
+    width: 358px;
+height: 358px;
+position: absolute;
+top: 50%;
+border-radius: 358px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+.otrocirculo{
+    position: absolute;
+    width: auto;
+height: auto;
+stroke-width: 15px;
+stroke: rgba(98, 72, 255, 0.10);
+left: 90%;
+top: 20%;
+}
+
+.otrocirculo svg{
+    width: 200px;
+height: 200px;
+}

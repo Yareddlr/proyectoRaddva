@@ -1,0 +1,1286 @@
+*{
+    
+    box-sizing: border-box,
+}
+
+body::before{
+        content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+     z-index: 1;
+     background: rgba(0, 0, 0, 0.50);
+width: 100%;
+height: 2568px;
+      
+      
+    }
+   
+
+    
+.navigation{
+    margin: auto;
+    padding: 0;
+    
+
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+color: #000;
+text-align: center;
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+line-height: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    }
+nav li{
+    margin: 10px 20px ;
+  
+
+}
+.logo{
+ width: 300px;
+color: #000;
+font-family: roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: -0.15px;
+
+}
+.login{
+    margin: auto;
+    width: 320px;
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+}
+#session{
+    cursor: pointer;
+    overflow: #fff;
+    width: 204px;
+height: 47px;
+border-radius: 40px;
+background: #6248FF;
+border: none;
+color: #FFF;
+align-items: flex-end;
+text-align: center;
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: -0.1px;
+}
+#session:hover{
+    background-color: #0056b3;
+}
+
+.maincontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contenedor{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 5px 8px 8px rgba(0, 0, 0, 0.25);
+width: 1298px;
+height: 461px;
+position: relative;
+
+}
+
+#flecha{
+    width: 32px;
+height: 52px;
+background: rgba(0, 0, 0, 0.50);
+position: absolute;
+top: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#flecha2{
+    width: 32px;
+height: 52px;
+background: rgba(0, 0, 0, 0.50);
+position: absolute;
+top: 50%;
+right: 41.1%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#svg{
+    position: absolute;
+    z-index: 1;
+}
+.contenedor img{
+   width: 765px;
+   height: auto;
+}
+
+#circulo{
+    width: 71px;
+height: 71px;
+background-color: rgba(0, 0, 0, 0.10);
+filter: box-shadow (0px 1px 4px rgba(0, 0, 0, 0.25));
+position: absolute;
+top: 5%;
+right: 32%;
+border-radius: 40px;
+}
+
+#mazdalogo{
+    position: absolute;
+    width: 43px;
+    top: 8%;
+    right: 33.05%;
+}
+
+#mazda33{
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    color: #000;
+font-family: roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+width: 150px;
+
+}
+#Grand{
+position: absolute;
+top: 10%;
+right: 20%;
+width: 150px;
+color: rgba(0, 0, 0, 0.50);
+
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+#mazda3{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 400px;
+}
+
+#Publicado{
+    color: rgba(0, 0, 0, 0.50);
+
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+top: 55%;
+right: 29%;
+width: auto;
+}
+
+#Rojelio{
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 50px;
+    position: absolute;
+    top: 63%;
+    right: 35% ;
+    
+}
+
+#rojas{
+    color: #000;
+text-align: center;
+font-family: roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+position: absolute;
+top: 60%;
+right: 23%;
+width: auto;
+
+}
+
+#vendedor{
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+top: 67%;
+right: 22%;
+width: auto;
+}
+
+#precio{
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+right: 5%;
+top: 55%;
+width: auto;
+
+}
+
+#valor{
+    color: #000;
+text-align: center;
+font-family: roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+position: absolute;
+top: 62%;
+right: 5%;
+width: auto;
+
+}
+
+#raya{
+    position: absolute;
+    top: 78%;
+    width: 528px;
+
+}
+
+#boton1, #boton2{
+    width: 245px;
+height: 45px;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+position: absolute;
+
+}
+
+#boton1{
+    top: 85%;
+    right: 21%;
+    position: absolute;
+    color: #000;
+text-align: center;
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+#boton2{
+    position: absolute;
+    top: 85%;
+    right: 1%;
+    color: #fff;
+text-align: center;
+font-family: roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+background-color: #6248FF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#svgm{
+    margin-right: 5px;
+}
+
+/*contenido del section*/
+
+.firstsection{
+width: 100%;
+height: 1550px;
+position: relative;
+}
+
+.informacion{
+    width: 698px;
+height: 246px;
+background-color: #FFF;
+filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+position: absolute;
+top: 10%;
+left: 5%;
+justify-content: center;
+}
+
+#info{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 698px;
+
+}
+
+
+.caracteres{
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.caracteres p{
+    margin: 10px 20px;
+    width: 100px;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+.caracteristicas p{
+     margin: 10px 20px;
+     width: 100px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconos img{
+margin: 0px 20px;
+width: 100px;
+}
+
+.infoicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoicon p{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+margin: 5px 20px;
+width: 100px;
+
+}
+
+
+.historial{
+position: absolute;
+width: 698px;
+height: 616px;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+top: 28%;
+left: 5%;
+
+
+}
+
+#historialdelauto{
+    color: var(--color-raddva, #6248FF);
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+}
+
+.segmento1{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  color: #000;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.segmento2{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+
+}
+.segmento1 p{
+    margin: 10px;
+    
+}
+
+.segmento2 p{
+    margin: 10px;
+}
+
+#valordelmercado{
+    color: var(--color-raddva, #6248FF);
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    
+
+}
+
+.caja1{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+
+.inclinada{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+
+.rectalinea{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+.precios{
+    position: absolute;
+    top: 58%;
+    left: 9%;
+}
+
+.precios p{
+    color: #000;
+font-family: Roboto;
+font-size: 7px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 15px 20px;
+}
+
+
+.rayas{
+    position: absolute;
+    top: 84%;
+    left: 11%;
+}
+
+.rayas svg{
+    margin: 0px 60px;
+}
+
+.añoinclinado{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.añoinclinado p{
+    margin: 0px 60px;
+
+    color: #000;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transform: rotate(-30.968deg);
+
+}
+
+#cerca{
+
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+right: 14%;
+top: 6%;
+width: auto;
+margin: 0;
+}
+
+.cerca img{
+    object-fit: cover;
+    width: 539px;
+height: 334px;
+}
+
+.cerca{
+    position: absolute;
+top: 10%;
+right: 5%;
+
+}
+
+.fondo1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+.fondo2{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+ 
+}
+.fondo3{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+ 
+}
+
+.fondo4{
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo5{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo6{
+    position: absolute;
+    top: 10%;
+    left: 67%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo7{
+    position: absolute;
+    top: 35%;
+    left: 58%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo8{
+    position: absolute;
+    top: 80%;
+    left: 67%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.fondo9{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 39px;
+height: 14px;
+background: #000;
+color: #fff;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    color: #000;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 30.5px; /* 203.333% */
+letter-spacing: -0.075px;
+}
+
+#Nombre{
+    width: 544px;
+    height: 57px;
+    border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+#Telefono{
+    width: 544px;
+    height: 57px;
+    border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+#correo{
+    width: 544px;
+    height: 57px;
+    border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+#mensaje{
+    width: 544px;
+    height: 57px;
+   
+border: 1px solid rgba(0, 0, 0, 0.50);
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+#input{
+    width: 346px;
+height: 45px;
+border-radius: 20px;
+background: var(--color-raddva, #6248FF);
+border: none;
+color: #fff;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+align-self: center;
+margin: 20px;
+
+}
+
+#contacta{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+right: 26%;
+top: 35%;
+}
+
+
+.opcionessimilares{
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+   
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auto{
+    width: 337px;
+height: 231px;
+background: #FFF;
+filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25));
+margin: 20px;
+border-radius: 10px;
+
+flex-direction: column;
+}
+
+.auto1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.auto2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.auto3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#valor{
+    color: black;
+    font-family: roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: auto; /* 305% */
+    letter-spacing: -0.05px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    }
+    
+    #especificaciones{
+       
+        
+        color: #000;
+    font-family: roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto; /* 381.25% */
+    letter-spacing: -0.04px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    
+    }
+    #vendidoPor{
+       
+    color: #949AAF;
+    font-family: roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto; /* 435.714% */
+    letter-spacing: -0.035px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    }
+    #masDetalles{
+        
+        margin: 5px 5px;
+        align-self: flex-end;
+        width: 90px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: #6248FF;
+    border: none;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 9px;
+    font-family: roboto;
+    
+    
+    }
+#opciones{
+    color: #000;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+top: 72%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.footer{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    background: #FBFBFB;
+width: auto;
+height: 400px;
+padding-left: 30px;
+padding-top: 0px;
+padding-right: 30px;
+}
+.logofotter{
+width: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.15px;
+}
+
+.contacto{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.pie{
+   
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    color: #000;
+font-family: Verdana;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.1px;
+}
+#inicial{
+    color: #949AAF;
+font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+#resaltar{
+    color: var(--color-raddva, #6248FF);
+font-family: Verdana;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.25px;
+}
+
+.rectangulo{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+     width: 238px;
+height: 700px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+
+
+#rec{
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    width: 932px;
+    height: 400px;
+
+   
+}
+.circulo{
+    width: 358px;
+height: 358px;
+position: absolute;
+top: 50%;
+border-radius: 358px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+.otrocirculo{
+    position: absolute;
+    width: auto;
+height: auto;
+stroke-width: 15px;
+stroke: rgba(98, 72, 255, 0.10);
+left: 90%;
+top: 20%;
+}
+
+.otrocirculo svg{
+    width: 200px;
+height: 200px;
+}
+
+.Cita{
+    
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 718px;
+    height: 883px;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+#agendar{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#botonn1{
+    width: 253px;
+    height: 45px;
+    border-radius: 20px;
+border: 1px solid var(--color-raddva, #6248FF);
+background: var(--color-raddva, #6248FF);
+margin: 10px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+cursor: pointer;
+transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#botonn1:hover{
+    border-color: skyblue;
+    filter: drop-shadow(0px 1px 3px rgba(98, 72, 255, 0.25));
+    box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+#botonn2{
+    width: 253px;
+height: 45px;
+border-radius: 20px;
+border: 1px solid var(--color-raddva, #6248FF);
+margin: 10px;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+cursor: pointer;
+transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+#botonn2:hover{
+    border-color: skyblue;
+    filter: drop-shadow(0px 1px 3px rgba(98, 72, 255, 0.25));
+    box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fecha{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+
+.circulitos{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#circulo1{
+    width: 119px;
+height: 119px;
+border: #6248FF solid 1px;
+border-radius: 100px;
+margin: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: none;
+cursor: pointer;
+transition: background-color 0.3s ease, border-color 0.3s ease;
+
+}
+#circulo1:hover{
+    background-color: #6248FF;
+    border-color: skyblue;
+filter: drop-shadow(0px 1px 3px rgba(98, 72, 255, 0.25));
+box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+#circulo1 p{
+    margin: 8px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+transition: color 0.3s ease; 
+}
+
+#circulo1:hover p{
+    color: white;
+}
+.circulitos svg{
+    margin: 20px;
+}
+#elije{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+margin: 10px;
+
+}
+
+#hora{
+    width: 506px;
+height: 45px;
+border-radius: 20px;
+border: 1px solid var(--color-raddva, #6248FF);
+margin: 10px;
+color: #000;
+text-align:start;
+align-items: center;
+font-family: Roboto;
+display: flex;
+}
+
+#envia{
+    width: 253px;
+height: 45px;
+border-radius: 10px;
+border: 1px solid var(--color-raddva, #6248FF);
+background: var(--color-raddva, #6248FF);
+color: #fff;
+font-family: roboto;
+text-align: center;
+margin: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease, border-color 0.3s ease;
+
+}
+#envia:hover{
+    border-color: skyblue;
+filter: drop-shadow(0px 1px 3px rgba(98, 72, 255, 0.25));
+box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.ultimo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hora p{
+    margin-left: 10px;
+}
+
+#mazda1{
+    object-fit: cover;
+    width: 100%;
+    height: 294px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

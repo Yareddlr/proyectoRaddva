@@ -1,0 +1,549 @@
+*{
+   
+    box-sizing: border-box,
+}
+
+body::before{
+        content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+     z-index: -1;
+      background: linear-gradient(180deg, rgba(98, 72, 255, 0.20) 34.14%, rgba(98, 72, 255, 0.00) 100%);
+      filter: blur(400px);
+      
+    }
+
+/*menu de navegacion*/
+
+.navigation{
+    margin: auto;
+    padding: 0;
+    
+
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+color: #000;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+font-style: normal;
+line-height: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    }
+nav li{
+    margin: 10px 20px ;
+  
+
+}
+.logo{
+ width: 300px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: -0.15px;
+
+}
+.login{
+    margin: auto;
+    width: 320px;
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+}
+#session{
+    cursor: pointer;
+    overflow: #fff;
+    width: 204px;
+height: 47px;
+border-radius: 40px;
+background: #6248FF;
+border: none;
+color: #FFF;
+align-items: flex-end;
+text-align: center;
+font-family: Verdana;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: -0.1px;
+}
+#session:hover{
+    background-color: #0056b3;
+}
+
+/*contenido del main*/
+.maincontainer{
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+}
+
+#VendeTuVehiculo{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 65px;
+font-style: normal;
+font-weight: 500;
+line-height: auto;
+letter-spacing: -0.325px;
+width:885px;
+height: 321px;
+margin: 0px;
+top: 25%;
+right: 10%;
+}
+
+
+
+.maincontainer span{
+    color:  #6248FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: auto; /* 116.154% */
+    letter-spacing: -0.325px;
+}
+
+#crecimiento{
+    position: absolute;
+    top: 0%;
+    width: 500px;
+    height: 500px;
+    left: 10%;
+}
+
+.newsection{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+#VendeTuauto{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.2px;
+top: 0%;
+left: 5%;
+width: 915px;
+}
+
+#compra{
+    position: absolute;
+    top: 40%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+left: 5%;
+}
+
+#formulario{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+
+#name{
+    border-radius: 10px;
+border: 1px solid #C7CDD8;
+width: 285px;
+height: 36px;
+}
+
+#email{
+    border-radius: 10px;
+border: 1px solid #C7CDD8;
+width: 285px;
+height: 36px;
+}
+#boton{
+    border-radius: 10px;
+    width: 100px;
+    height: 36px;
+    margin-left: 5px;
+    background-color: #6248FF;
+    color: #fff;
+    border: none;
+
+}
+
+#negociar{
+    top: 10%;
+    position: absolute;
+    right: 10%;
+    width: 450px;
+    
+}
+#Vendeconunasociado{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 172% */
+letter-spacing: -0.125px;
+}
+
+#Venderdirectamente{
+    position:absolute;
+    top: 60%;
+    left: 35%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 172% */
+letter-spacing: -0.125px;
+}
+
+#Elasociado{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+width: 400px;
+height: auto;
+}
+
+#Siteurge{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+width: 400px;
+height: auto;
+}
+
+.twosection{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+
+}
+
+#AyudaDeasociado{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 82.5% */
+letter-spacing: -0.2px;
+width: 841px;
+height: 63px;
+left: 5%;
+}
+
+#Dejaquenuestros{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+top: 12%;
+left: 5%;
+width: 791px;
+height: auto;
+}
+
+#boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 10px;
+    background: #6248FF;
+    width: 273px;
+    height: 57px;
+    color: #FFF;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: auto; /* 377.5% */
+letter-spacing: -0.1px;
+border: none;
+}
+
+.ventajas{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 120% */
+letter-spacing: -0.1px;
+}
+
+#Vendelotumismo{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: #000;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 82.5% */
+letter-spacing: -0.2px;
+}
+
+#PuedesVender{
+    position: absolute;
+    left: 5%;
+    top: 62%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+width: 779px;
+
+}
+
+#boton2{
+    position: absolute;
+    top: 76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    left: 5%;
+    border-radius: 10px;
+    background: #6248FF;
+    width: 273px;
+    height: 57px;
+    color: #FFF;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: auto; /* 377.5% */
+letter-spacing: -0.1px
+
+}
+
+.ventajas2{
+    position: absolute;
+    top: 82%;
+    left: 5%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 120% */
+letter-spacing: -0.1px;
+}
+
+#crece1{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+
+#crece2{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+/*inicio del footer*/
+.footer{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    background: #FBFBFB;
+width: auto;
+height: 400px;
+padding-left: 30px;
+padding-top: 0px;
+padding-right: 30px;
+}
+.logofotter{
+width: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #000;
+font-family: Verdana;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.15px;
+}
+
+.contacto{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.pie{
+   
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    color: #000;
+font-family: Verdana;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.1px;
+}
+#inicial{
+    color: #949AAF;
+font-family: Verdana;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+#resaltar{
+    color: var(--color-raddva, #6248FF);
+font-family: Verdana;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.25px;
+}
+
+.rectangulo{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+     width: 238px;
+height: 700px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+
+
+#rec{
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    width: 932px;
+    height: 400px;
+
+   
+}
+.circulo{
+    width: 358px;
+height: 358px;
+position: absolute;
+top: 50%;
+border-radius: 358px;
+background: rgba(98, 72, 255, 0.10);
+}
+
+.otrocirculo{
+    position: absolute;
+    width: auto;
+height: auto;
+stroke-width: 15px;
+stroke: rgba(98, 72, 255, 0.10);
+left: 90%;
+top: 20%;
+}
+
+.otrocirculo svg{
+    width: 200px;
+height: 200px;
+}
+
+/*fin del footer*/
+
+
+.decoracion1{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+
+}
+
+.decoracion2{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+.decoracion3{
+    position: absolute;
+    top: 80%;
+    left: 48%;
+}
+.decoracion4{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}

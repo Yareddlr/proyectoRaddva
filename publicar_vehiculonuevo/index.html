@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Raddva</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Raddva</p>
+        </div>
+        <nav>     
+            <ul class="navigation">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#comprar Auto">Comprar Auto</a></li>
+                <li><a href="#Vender Auto">Vender Auto</a></li>
+                <li><a href="#Buscar profesionales">Buscar profesionales</a></li>
+                <li><a href="#Recursos">Recursos</a></li>
+            </ul>
+           
+        </nav>
+        <div class="login">
+            <button id="session" type="submit"> Inicar sesion</button></div>
+        </header>
+        <main class="maincontainer">
+            <img id="promo" src="./coche (2) 1.svg" alt="">
+            <h1 id="titulo1">Estas a un paso de publicar tu auto nuevo primero ingresa la marca del auto</h1>
+            <p id="para">Para publicar un auto usado en nuestra plataforma 
+                es necesario que selecciones la marca del auto que quieres vender.</p>
+                
+                <form class="llenado" action="procesar.php" method="post">
+                    <input type="text" id="marca" placeholder="seleccionar marca" required ></input>
+
+                    <input type="text" id="version" placeholder="seleccionar version" required></input>
+                    <input id="input" type="submit" value="Buscar">
+                </form>
+
+
+        </main>
+        <section class="firstsection">
+
+            <p id="texto1">Para publicar una auto nuevo debes saber algo</p>
+                <p id="texto2">Raddva es la platafomra de compra y venta de autos nuevos y usados de toda la republica, 
+                    para publicar un auto nuevo es necesario que ingreses la ubicacion de la agencia en donde podras 
+                    mostrar el vehiculo a tus clientes,  esto con al finalidad de que puedan encontrarte mas facilemente</p>
+                <p id="texto3">¿Porque publicar tu vehiculo en raddva?</p>
+                <p id="texto4">Tu vehículo nuevo estará publicado en toda la red de Raddva por lo que la oportunidad de venta 
+                    podrá ser 4 veces mas rápida de lo normal, esto se debe a que Raddva cuenta con una red de asociados grandísima, 
+                    que no dudes que unos de nuestros asociados que venda la misma marca que tu se comunique contigo y te pueda proporcionar 
+                    el cliente que tu necesitas.
+                     recuerda que a veces es mejor el 50% de algo que el 100% de nada. </p>
+
+                     <img id="imagen2" src="./grafico-de-barras 1.svg" alt="">
+
+        </section>
+
+        <footer class="footer">
+   
+            <svg id="rec" xmlns="http://www.w3.org/2000/svg" width="932" height="581" viewBox="0 0 932 581" fill="none">
+                <path d="M0.861817 0.138313L348.362 0.139085L932.362 581.362L576.362 581.362L0.861817 0.138313Z" fill="#6248FF" fill-opacity="0.1"/>
+              </svg>
+           <div class="circulo"></div>
+           <div class="otrocirculo"><svg xmlns="http://www.w3.org/2000/svg" width="242" height="242" viewBox="0 0 242 242" fill="none">
+            <circle cx="121" cy="121" r="113.5" stroke="#6248FF" stroke-opacity="0.1" stroke-width="15"/>
+          </svg></div>
+            <div class="logofotter">
+                <p>Raddva</p>
+                <svg id="facebook"xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                    <g clip-path="url(#clip0_667_4454)">
+                      <path d="M26.5788 0.89209H2.39152C1.56331 0.892588 0.891924 1.56431 0.89209 2.39285V26.5802C0.892588 27.4084 1.56431 28.0798 2.39285 28.0796H15.4151V17.5657H11.8839V13.4504H15.4151V10.4218C15.4151 6.90971 17.5592 4.99809 20.6921 4.99809C22.1927 4.99809 23.4822 5.10994 23.8581 5.15988V8.83063H21.6977C19.9932 8.83063 19.6632 9.64058 19.6632 10.8294V13.4504H23.7386L23.2076 17.5657H19.6632V28.0796H26.5788C27.4075 28.0798 28.0794 27.4082 28.0796 26.5795C28.0796 26.5793 28.0796 26.5792 28.0796 26.5788V2.39152C28.0793 1.56331 27.4074 0.891924 26.5788 0.89209Z" fill="black"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_667_4454">
+                        <rect width="29" height="29" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg> <svg id="facebook"xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                    <g clip-path="url(#clip0_667_4456)">
+                      <path d="M20.9967 0H8.00273C3.59003 0 0 3.5902 0 8.0029V20.9969C0 25.4098 3.59003 28.9998 8.00273 28.9998H20.9967C25.4098 28.9998 28.9998 25.4096 28.9998 20.9969V8.0029C29 3.5902 25.4098 0 20.9967 0ZM26.427 20.9969C26.427 23.991 23.991 26.4268 20.9969 26.4268H8.00273C5.00878 26.427 2.57301 23.991 2.57301 20.9969V8.0029C2.57301 5.00895 5.00878 2.57301 8.00273 2.57301H20.9967C23.9909 2.57301 26.4268 5.00895 26.4268 8.0029V20.9969H26.427Z" fill="black"/>
+                      <path d="M14.4999 7.02783C10.3795 7.02783 7.0274 10.3799 7.0274 14.5004C7.0274 18.6206 10.3795 21.9725 14.4999 21.9725C18.6203 21.9725 21.9724 18.6206 21.9724 14.5004C21.9724 10.3799 18.6203 7.02783 14.4999 7.02783ZM14.4999 19.3994C11.7984 19.3994 9.60041 17.2017 9.60041 14.5002C9.60041 11.7985 11.7983 9.60067 14.4999 9.60067C17.2016 9.60067 19.3994 11.7985 19.3994 14.5002C19.3994 17.2017 17.2014 19.3994 14.4999 19.3994Z" fill="black"/>
+                      <path d="M22.2858 4.84595C21.7901 4.84595 21.3031 5.04664 20.953 5.39829C20.6012 5.74821 20.3989 6.23537 20.3989 6.73282C20.3989 7.22872 20.6013 7.71571 20.953 8.06735C21.3029 8.41728 21.7901 8.61969 22.2858 8.61969C22.7832 8.61969 23.2687 8.41728 23.6203 8.06735C23.972 7.71571 24.1727 7.22855 24.1727 6.73282C24.1727 6.23537 23.972 5.74821 23.6203 5.39829C23.2704 5.04664 22.7832 4.84595 22.2858 4.84595Z" fill="black"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_667_4456">
+                        <rect width="29" height="29" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+            </div>
+            <div class="contacto">
+               <div class="pie">
+                   <p id="inicial">Producto</p>
+                   <p>buscar vendedor</p>
+                   <p>Buscar ejecutivo</p>
+                   <p>comprar auto</p>
+                   <p>vender auto</p>
+                   
+               </div>
+               <div class="pie">
+                <p id="inicial">Empresa</p>
+                <p>Que es raddva</p>
+                <p>contactanos</p>
+               </div>
+               <div class="pie">
+                <p id="inicial">Recursos</p>
+                <p>Asociado de Raddva</p>
+                <p>Manual Raddva</p>
+                <p>Soy ejecutivo de banco</p>
+                <p>Soy vendedor</p>
+                <p>Soy vendedor</p>
+                
+                
+               </div>
+            </div>
+                </footer>
+</body>
+</html>

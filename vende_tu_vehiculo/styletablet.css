@@ -1,0 +1,95 @@
+@media screen and (min-width: 800px) and (max-width: 1700px) {
+ 
+#VendeTuVehiculo{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 65px;
+font-style: normal;
+font-weight: 500;
+line-height: auto;
+letter-spacing: -0.325px;
+width:885px;
+height: 321px;
+margin: 0px;
+top: 25%;
+right: 5%;
+}
+#crecimiento{
+  position: absolute;
+  left: 0%;
+  width: 400px;
+  height: 400px;
+  top: 2%;
+    
+}
+.newsection{
+    position: relative;
+    width: 100%;
+    height: 800px;
+   
+}
+#VendeTuauto{
+    position: absolute;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.2px;
+top: 0%;
+left: 5%;
+width: 915px;
+}
+
+#Venderdirectamente{
+    position:absolute;
+    top: 60%;
+    left: 45%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: auto; /* 172% */
+letter-spacing: -0.125px;
+}
+
+
+#Siteurge{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: auto; /* 107.5% */
+letter-spacing: -0.1px;
+width: 400px;
+height: auto;
+}
+#negociar{
+    top: 10%;
+    position: absolute;
+    right: 5%;
+    width: 400px;
+    }
+
+    #compra{
+        position: absolute;
+        top: 40%;
+        color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: auto; /* 107.5% */
+    letter-spacing: -0.1px;
+    left: 5%;
+    width: 800px;
+    }
+
+}

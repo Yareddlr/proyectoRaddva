@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raddva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Raddva</p>
+        </div>
+        <nav>     
+            <ul class="navigation">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#comprar Auto">Comprar Auto</a></li>
+                <li><a href="#Vender Auto">Vender Auto</a></li>
+                <li><a href="#Buscar profesionales">Buscar profesionales</a></li>
+                <li><a href="#Recursos">Recursos</a></li>
+            </ul>
+           
+        </nav>
+      
+        </header>
+
+        <main class="maincontainer">
+            <p id="listo">Listo lo hemos encontrado es un <span id="span1">MAZDA 3 AÑO 2020 GRAND TOURING</span></p>
+            <img src="./mazda_3-removebg (1) 1.svg" alt="">
+            <p id="ingresa">Ingresa los datos del vehiculo</p>
+
+        <div class="contenedor">
+            <form action="procesar.php" method="post">
+            <input class="box" type="text" id="km" name="Kilometraje" placeholder="Kilometraje" required>
+            <input class="box" type="text" id="motor" name="motor" placeholder="motor" required>
+            <input class="box" type="text" id="transmision" name="transmision" placeholder="transmision" required>
+            <input class="box" type="text" id="cilindros" name="cilindros" placeholder="cilindros" required>
+            <input class="box" type="text" id="rendimiento" name="rendimiento" placeholder="rendimiento" required>
+            <input class="box" type="text" id="tipo de factura" name="tipo de factura" placeholder="tipo de factura" required>
+            <input class="box" type="text" id="estado de emplacamiento" name="estado de emplacamiento" placeholder="estado de emplacamiento" required>
+            <input class="box" type="text" id="¿necesita servicio?" name="¿necesita servicico?" placeholder="¿necesita servicio?" required>
+            <button id="botom" type="submit" value="enviar datos">Enviar datos</button>
+        </form>
+        </div>
+            <p id="dato"><span>Dato curioso:</span> Raddva tiene datos sobre mas de 100 millones
+                 de vehiculos mexicanos en toda la republica, lo que la hace ser la mas confiable</p>
+        </main>
+</body>
+</html>
